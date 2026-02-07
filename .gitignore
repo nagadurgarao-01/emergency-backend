@@ -14,7 +14,8 @@ build.gradle.kts
 
 # Node modules (Backend)
 emergency-backend/node_modules/
-emergency-backend/.env
+.env
+*.env
 
 # Python (ML)
 ml/__pycache__/
