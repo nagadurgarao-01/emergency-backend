@@ -1,0 +1,22 @@
+# Android App exclusions
+app/
+.gradle/
+.idea/
+build/
+gradle/
+*.iml
+local.properties
+gradlew
+gradlew.bat
+settings.gradle.kts
+gradle.properties
+build.gradle.kts
+
+# Node modules (Backend)
+emergency-backend/node_modules/
+emergency-backend/.env
+
+# Python (ML)
+ml/__pycache__/
+ml/dataset/
+*.pyc
